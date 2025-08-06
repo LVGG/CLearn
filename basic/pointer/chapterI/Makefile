@@ -10,10 +10,10 @@ CFLAGS = -Wall -g
 TARGET = exe
 
 # Source files
-SOURCES = A.c B.c
+SOURCES = *.c
 
 # Header files
-HEADERS = common.h
+HEADERS = *.h
 
 # Object files
 OBJECTS = $(SOURCES:.c=.o)
@@ -30,6 +30,10 @@ $(TARGET): $(OBJECTS)
 %.o: %.c $(HEADERS)
 	$(CC) $(CFLAGS) -c $< -o $@
 
+# Run the executable
+run: $(TARGET)
+	./$(TARGET)
+
 # Clean build artifacts
 clean:
 	rm -f $(OBJECTS) $(TARGET)
@@ -37,4 +41,4 @@ clean:
 # Rebuild everything
 rebuild: clean all
 
-.PHONY: all clean rebuild
+.PHONY: all clean rebuild run
