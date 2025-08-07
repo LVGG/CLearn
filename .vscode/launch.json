@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/mac/Workspace/GithubProject/CLearn/cpp/0.0",
-      "program": "/Users/mac/Workspace/GithubProject/CLearn/cpp/0.0/build/Debug/outDebug"
+      "cwd": "/Users/mac/Workspace/GithubProject/CLearn/cpp/0.4",
+      "program": "/Users/mac/Workspace/GithubProject/CLearn/cpp/0.4/build/Release/outRelease"
     },
     {
       "name": "C/C++: gcc 构建和调试活动文件",
