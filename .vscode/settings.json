@@ -59,6 +59,11 @@
   "files.associations": {
     "a.h": "c",
     "common.h": "c",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "__bit_reference": "cpp",
+    "__config": "cpp",
+    "__mutex_base": "cpp",
+    "cstddef": "cpp",
+    "thread": "cpp"
   }
 }
